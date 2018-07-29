@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="input-field col s6">
+                            <form name="myForm" action="/sendFile" method="post" enctype="multipart/form-data">
+                                <input id="fileName" name="fileName" type="file"  class="validate" >
+                                <label for="poolSize">Pool size</label>
+                                <input id="poolSize" name="size" type="number" class="validate" min="1" step="1">
+                                <label for="roundNumber">Round Number</label>
+                                <input id="roundNumber" name="round" type="number" class="validate" min="2" step="2">
+                                <input type="submit">
+                            </form>
+                        </div>
+</body>
+</html>
